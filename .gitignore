@@ -1,7 +1,7 @@
 # Ignore theme development items
 themes/custom/*/development
 themes/custom/*/node_modules
-themes/custom/*/gulpfile
+themes/custom/*/gulpfile.js
 themes/custom/*/package.json
 
 # Ignore site settings
