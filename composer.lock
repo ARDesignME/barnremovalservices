@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "640b201279e1bdc9aa6485799dd3d00e",
+    "content-hash": "791ba782669c362cac0530f8e933d357",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -671,7 +671,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/adminimal_theme-8.x-1.3.zip",
-                "reference": "8.x-1.3",
+                "reference": null,
                 "shasum": "bb9f280bcdbd7e4d384a925c685a2aa1feed8419"
             },
             "require": {
@@ -705,44 +705,6 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/adminimal_theme"
             }
-        },
-        {
-            "name": "drupal/advanced_text_formatter",
-            "version": "dev-1.x",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/advanced_text_formatter",
-                "reference": "d216c1685ff8297c5c3fa8f77768c09b8ad27f62"
-            },
-            "require": {
-                "drupal/core": "*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0-beta3+0-dev",
-                    "datestamp": "1445163539"
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "thmnhat",
-                    "homepage": "https://www.drupal.org/user/998946"
-                }
-            ],
-            "description": "Provides an additional formatter for text field, text area and text format.",
-            "homepage": "https://www.drupal.org/project/advanced_text_formatter",
-            "support": {
-                "source": "http://cgit.drupalcode.org/advanced_text_formatter"
-            },
-            "time": "2015-10-18 10:14:27"
         },
         {
             "name": "drupal/baguettebox",
@@ -793,7 +755,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/contact_block-8.x-1.3.zip",
-                "reference": "8.x-1.3",
+                "reference": null,
                 "shasum": "fceaaff984380a9164c6aae9aee2519e6d5dd4f1"
             },
             "require": {
@@ -1305,7 +1267,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/google_analytics-8.x-2.1.zip",
-                "reference": "8.x-2.1",
+                "reference": null,
                 "shasum": "9b5c76802ca28d5072bb9bb552bbfeb660b0734a"
             },
             "require": {
@@ -1395,7 +1357,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/imce-8.x-1.4.zip",
-                "reference": "8.x-1.4",
+                "reference": null,
                 "shasum": "6276e11db0438f0ffc021c90c117c344f214256e"
             },
             "require": {
@@ -1426,44 +1388,6 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/imce"
             }
-        },
-        {
-            "name": "drupal/jssor",
-            "version": "dev-1.x",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/jssor",
-                "reference": "6a414461ac646b5829dc016ea8d42558b56754ea"
-            },
-            "require": {
-                "drupal/core": "*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0-rc6+3-dev",
-                    "datestamp": "1463771006"
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "targoo",
-                    "homepage": "https://www.drupal.org/user/431910"
-                }
-            ],
-            "description": "Jssor Slider",
-            "homepage": "https://www.drupal.org/project/jssor",
-            "support": {
-                "source": "http://cgit.drupalcode.org/jssor"
-            },
-            "time": "2016-05-20 07:53:56"
         },
         {
             "name": "drupal/layout_plugin",
@@ -1526,7 +1450,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/linkit-8.x-4.1.zip",
-                "reference": "8.x-4.1",
+                "reference": null,
                 "shasum": "46a15a043504df3b6a6041f774f47b518a7ce1d2"
             },
             "require": {
@@ -1900,7 +1824,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/simple_sitemap-8.x-2.8.zip",
-                "reference": "8.x-2.8",
+                "reference": null,
                 "shasum": "f88b904f8e71d849693309b9315f25e7c06a6d77"
             },
             "require": {
@@ -2070,7 +1994,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/video-8.x-1.2.zip",
-                "reference": "8.x-1.2",
+                "reference": null,
                 "shasum": "d0af8254ad0e3c496fda89d5b796d6fb86ebda7d"
             },
             "require": {
@@ -2130,7 +2054,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/views_slideshow-8.x-4.2.zip",
-                "reference": "8.x-4.2",
+                "reference": null,
                 "shasum": "deae29c373f974f8ff2be249925702ff40c898dd"
             },
             "require": {
@@ -2187,7 +2111,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/yoast_seo-8.x-1.1.zip",
-                "reference": "8.x-1.1",
+                "reference": null,
                 "shasum": "01a7ddbc69beacf9790086fafca879b6c0e3fa57"
             },
             "require": {
@@ -5963,9 +5887,7 @@
         "drupal/search404": 20,
         "drupal/token_filter": 20,
         "drupal/baguettebox": 20,
-        "drupal/jssor": 20,
         "drupal/formblock": 20,
-        "drupal/advanced_text_formatter": 20,
         "drupal/custom_formatters": 20,
         "drupal/field_collection": 20
     },

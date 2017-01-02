@@ -120,6 +120,21 @@ jQuery(document).ready(function($){
     $("html, body").animate({ scrollTop: sectop }, 800);
   });
 
+// Change navbar background on scroll
+var changePoint = 60;
+
+$(window).on('scroll',function(){
+
+    // we round here to reduce a little workload
+    var stop = $(window).scrollTop();
+
+    if (stop > changePoint) {
+        $('#main-navigation').addClass('past-point');
+    } else {
+        $('#main-navigation').removeClass('past-point');
+    }
+
+});
 
 
 
