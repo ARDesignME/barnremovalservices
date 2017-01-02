@@ -1,0 +1,15 @@
+uuid: 29e58d05-7ee4-4537-a379-b1be51940eec
+langcode: en
+status: true
+dependencies: {  }
+name: mobile_medium
+label: 'Mobile Medium'
+effects:
+  61a1235d-ad75-41d5-bc56-19c96c4f2043:
+    uuid: 61a1235d-ad75-41d5-bc56-19c96c4f2043
+    id: image_scale
+    weight: 1
+    data:
+      width: 736
+      height: null
+      upscale: false

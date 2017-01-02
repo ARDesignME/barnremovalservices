@@ -1,0 +1,45 @@
+@import url("//hello.myfonts.net/count/3184a1");
+
+@font-face {
+  font-family: 'HalisGR';
+  src: url('../fonts/3184A1_1_0.eot');
+  src: url('../fonts/3184A1_1_0.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/3184A1_1_0.woff2') format('woff2'),
+       url('../fonts/3184A1_1_0.woff') format('woff'),
+       url('../fonts/3184A1_1_0.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HalisGR';
+  src: url('../fonts/3184A1_0_0.eot');
+  src: url('../fonts/3184A1_0_0.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/3184A1_0_0.woff2') format('woff2'),
+       url('../fonts/3184A1_0_0.woff') format('woff'),
+       url('../fonts/3184A1_0_0.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'HalisGR';
+  src: url('../fonts/3184A1_4_0.eot');
+  src: url('../fonts/3184A1_4_0.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/3184A1_4_0.woff2') format('woff2'),
+       url('../fonts/3184A1_4_0.woff') format('woff'),
+       url('../fonts/3184A1_4_0.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HalisGR';
+  src: url('../fonts/3184A1_A_0.eot');
+  src: url('../fonts/3184A1_A_0.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/3184A1_A_0.woff2') format('woff2'),
+       url('../fonts/3184A1_A_0.woff') format('woff'),
+       url('../fonts/3184A1_A_0.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}

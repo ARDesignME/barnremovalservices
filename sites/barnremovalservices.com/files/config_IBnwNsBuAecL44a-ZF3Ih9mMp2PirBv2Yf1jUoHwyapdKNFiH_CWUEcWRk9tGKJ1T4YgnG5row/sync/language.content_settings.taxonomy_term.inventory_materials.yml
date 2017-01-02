@@ -1,0 +1,11 @@
+uuid: 588fe56f-5571-447c-82cf-f41e76fb39ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.inventory_materials
+id: taxonomy_term.inventory_materials
+target_entity_type_id: taxonomy_term
+target_bundle: inventory_materials
+default_langcode: site_default
+language_alterable: false

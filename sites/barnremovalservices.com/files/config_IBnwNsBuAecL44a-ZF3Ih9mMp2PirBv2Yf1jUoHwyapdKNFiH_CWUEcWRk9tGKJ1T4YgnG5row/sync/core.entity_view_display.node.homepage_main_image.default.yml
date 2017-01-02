@@ -1,0 +1,35 @@
+uuid: b27452d1-3d4d-46a4-a364-bbcfe1327360
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.homepage_main_image.body
+    - field.field.node.homepage_main_image.field_image
+    - node.type.homepage_main_image
+  module:
+    - image
+    - text
+    - user
+id: node.homepage_main_image.default
+targetEntityType: node
+bundle: homepage_main_image
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  links:
+    weight: 100
+hidden:
+  langcode: true

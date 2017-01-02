@@ -1,0 +1,9 @@
+uuid: 9e3d2ea1-6711-43f7-8c8f-9ca7ea2dc8f3
+langcode: en
+status: true
+dependencies: {  }
+name: 'Inventory Categories'
+vid: inventory_categories
+description: 'Stock item categories'
+hierarchy: 0
+weight: 0

@@ -1,0 +1,9 @@
+uuid: 1ed4d0de-a1fd-4a6f-b45b-96457639dc31
+langcode: en
+status: true
+dependencies: {  }
+name: 'Media Tags'
+vid: media_tags
+description: 'Tags for media items'
+hierarchy: 0
+weight: 0

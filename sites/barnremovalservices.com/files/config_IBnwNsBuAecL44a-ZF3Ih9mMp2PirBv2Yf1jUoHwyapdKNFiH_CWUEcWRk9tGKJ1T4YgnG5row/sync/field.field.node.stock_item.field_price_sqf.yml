@@ -1,0 +1,23 @@
+uuid: ce7f88d6-c365-466d-95e5-dbe7022d81c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price_sqf
+    - node.type.stock_item
+id: node.stock_item.field_price_sqf
+field_name: field_price_sqf
+entity_type: node
+bundle: stock_item
+label: 'Price per Sq. Ft'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: $
+  suffix: '/sq. ft'
+field_type: float

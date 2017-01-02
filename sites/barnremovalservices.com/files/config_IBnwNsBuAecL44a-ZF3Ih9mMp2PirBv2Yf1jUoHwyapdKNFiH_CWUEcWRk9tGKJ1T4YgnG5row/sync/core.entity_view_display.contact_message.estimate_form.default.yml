@@ -1,0 +1,42 @@
+uuid: bea7c39a-52a3-4d5c-819b-66caf15965ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.estimate_form
+    - field.field.contact_message.estimate_form.field_email
+    - field.field.contact_message.estimate_form.field_name
+    - field.field.contact_message.estimate_form.field_phone
+id: contact_message.estimate_form.default
+targetEntityType: contact_message
+bundle: estimate_form
+mode: default
+content:
+  field_email:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_name:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_phone:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  message:
+    type: string
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  langcode: true

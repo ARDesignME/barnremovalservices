@@ -1,0 +1,42 @@
+uuid: 35e459ce-22db-473b-b12b-ed6016c4ff88
+langcode: en
+status: true
+dependencies:
+  module:
+    - imce
+    - node
+    - taxonomy
+third_party_settings:
+  imce:
+    use: true
+    scheme: public
+id: administrator
+label: Administrator
+description: 'Linkit admin config'
+attributes: {  }
+matchers:
+  2ed3919b-dcd2-47e1-9007-1ed3f821ad30:
+    uuid: 2ed3919b-dcd2-47e1-9007-1ed3f821ad30
+    id: 'entity:node'
+    weight: 0
+    settings:
+      result_description: ''
+      bundles: {  }
+      group_by_bundle: false
+      include_unpublished: false
+  c561afa9-fa39-4110-921c-bc4bcbc78dc5:
+    uuid: c561afa9-fa39-4110-921c-bc4bcbc78dc5
+    id: 'entity:taxonomy_term'
+    weight: 0
+    settings:
+      result_description: ''
+      bundles: {  }
+      group_by_bundle: false
+  97351216-1de2-43d9-9498-68033ad5cfa8:
+    uuid: 97351216-1de2-43d9-9498-68033ad5cfa8
+    id: 'entity:comment'
+    weight: 0
+    settings:
+      result_description: ''
+      bundles: {  }
+      group_by_bundle: false

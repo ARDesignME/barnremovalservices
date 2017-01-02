@@ -1,0 +1,14 @@
+uuid: ca42e1e7-9025-4616-82aa-6dc806841e88
+langcode: en
+status: true
+dependencies: {  }
+third_party_settings:
+  contextual:
+    mode: '1'
+id: content_title_h1
+label: 'Content Title H1'
+type: html_token
+description: ''
+field_types:
+  - string
+data: '<h1>[node:title]</h1>'

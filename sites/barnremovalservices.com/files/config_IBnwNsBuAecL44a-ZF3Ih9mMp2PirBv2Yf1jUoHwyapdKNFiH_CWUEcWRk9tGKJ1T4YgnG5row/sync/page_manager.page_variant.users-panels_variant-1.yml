@@ -1,0 +1,82 @@
+uuid: 3e9247fe-4666-4bbd-ba71-290e29b882e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.users
+  module:
+    - ctools_block
+    - panels
+    - user
+id: users-panels_variant-1
+label: Admin
+variant: panels_variant
+variant_settings:
+  blocks:
+    17e33f88-7ad5-47b6-bcf4-c1d75a919ff1:
+      id: formblock_user_password
+      label: 'Update Password'
+      provider: user
+      label_display: visible
+      region: middle
+      weight: 1
+      uuid: 17e33f88-7ad5-47b6-bcf4-c1d75a919ff1
+      context_mapping: {  }
+    d2c50052-e97a-4f24-81c1-238ba23ff32f:
+      id: 'entity_field:user:name'
+      label: 'User:'
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: inline
+        type: user_name
+        settings:
+          link_to_entity: false
+        third_party_settings: {  }
+        weight: 0
+      region: middle
+      weight: -1
+      uuid: d2c50052-e97a-4f24-81c1-238ba23ff32f
+      context_mapping:
+        entity: current_user
+    8e844f09-c0b1-43d0-9940-20c94a798ee4:
+      id: 'entity_field:user:access'
+      label: 'Last access'
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: above
+        type: timestamp
+        settings:
+          date_format: medium
+          custom_date_format: ''
+          timezone: ''
+        third_party_settings: {  }
+        weight: 0
+      region: middle
+      weight: 0
+      uuid: 8e844f09-c0b1-43d0-9940-20c94a798ee4
+      context_mapping:
+        entity: current_user
+  id: panels_variant
+  uuid: ac1b5dde-9df2-4a66-9e4e-3ea8abbcbc78
+  label: null
+  weight: 0
+  layout: basic-page
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: users-panels_variant-1
+  builder: ipe
+page: users
+weight: 0
+selection_criteria:
+  -
+    id: user_role
+    roles:
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: current_user
+selection_logic: and
+static_context: {  }

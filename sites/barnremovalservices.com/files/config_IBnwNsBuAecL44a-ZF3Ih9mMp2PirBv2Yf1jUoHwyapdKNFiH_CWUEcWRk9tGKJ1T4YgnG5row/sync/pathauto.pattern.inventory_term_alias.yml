@@ -1,0 +1,24 @@
+uuid: a53061e4-d4fb-4ce9-86fd-6c0ee4ecdaed
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: inventory_term_alias
+label: 'Inventory Term Alias'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/stock/[term:name]'
+selection_criteria:
+  1a52ff5c-a34b-4edc-8df2-bdb330144a1b:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      inventory_categories: inventory_categories
+      inventory_materials: inventory_materials
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 1a52ff5c-a34b-4edc-8df2-bdb330144a1b
+selection_logic: and
+weight: -5
+relationships: {  }

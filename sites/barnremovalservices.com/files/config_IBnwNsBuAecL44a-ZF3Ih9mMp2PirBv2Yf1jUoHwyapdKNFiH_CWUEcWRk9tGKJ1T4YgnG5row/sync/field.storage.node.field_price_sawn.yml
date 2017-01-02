@@ -1,0 +1,18 @@
+uuid: c60a604a-0325-4afb-9446-4cfd4300117b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_price_sawn
+field_name: field_price_sawn
+entity_type: node
+type: float
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

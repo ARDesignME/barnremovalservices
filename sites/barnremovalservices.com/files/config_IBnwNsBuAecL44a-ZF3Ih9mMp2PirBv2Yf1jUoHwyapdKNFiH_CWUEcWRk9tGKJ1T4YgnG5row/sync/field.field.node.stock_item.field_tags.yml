@@ -1,0 +1,30 @@
+uuid: 88305ca4-6dc6-4750-b908-025e1d10f5cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.stock_item
+    - taxonomy.vocabulary.inventory_categories
+    - taxonomy.vocabulary.inventory_materials
+id: node.stock_item.field_tags
+field_name: field_tags
+entity_type: node
+bundle: stock_item
+label: 'Category and Material'
+description: 'Select the category of the item and material(s) it''s made of'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      inventory_categories: inventory_categories
+      inventory_materials: inventory_materials
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: inventory_categories
+field_type: entity_reference

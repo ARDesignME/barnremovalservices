@@ -1,0 +1,21 @@
+uuid: 81bf62ce-b1b0-427c-9404-f1e9848abec3
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.estimate_form_short
+    - field.storage.contact_message.field_phone
+  module:
+    - telephone
+id: contact_message.estimate_form_short.field_phone
+field_name: field_phone
+entity_type: contact_message
+bundle: estimate_form_short
+label: Phone
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

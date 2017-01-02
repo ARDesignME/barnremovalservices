@@ -1,0 +1,62 @@
+uuid: ede5806c-a8c2-4003-a404-6f6c12138346
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.estimate_form
+    - field.field.contact_message.estimate_form.field_email
+    - field.field.contact_message.estimate_form.field_name
+    - field.field.contact_message.estimate_form.field_phone
+  module:
+    - telephone
+id: contact_message.estimate_form.default
+targetEntityType: contact_message
+bundle: estimate_form
+mode: default
+content:
+  copy:
+    weight: 50
+  field_email:
+    weight: 52
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+  field_name:
+    weight: 51
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_phone:
+    weight: 53
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
+  langcode:
+    type: language_select
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+  mail:
+    weight: -40
+  message:
+    type: string_textarea
+    weight: 0
+    settings:
+      rows: 12
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    weight: -50
+  subject:
+    type: string_textfield
+    weight: -10
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

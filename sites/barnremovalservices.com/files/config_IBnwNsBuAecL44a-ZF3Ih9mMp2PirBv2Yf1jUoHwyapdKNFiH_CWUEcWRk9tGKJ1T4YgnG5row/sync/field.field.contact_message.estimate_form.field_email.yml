@@ -1,0 +1,19 @@
+uuid: f458303e-43be-49c9-82d2-9af1102c3181
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.estimate_form
+    - field.storage.contact_message.field_email
+id: contact_message.estimate_form.field_email
+field_name: field_email
+entity_type: contact_message
+bundle: estimate_form
+label: Email
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

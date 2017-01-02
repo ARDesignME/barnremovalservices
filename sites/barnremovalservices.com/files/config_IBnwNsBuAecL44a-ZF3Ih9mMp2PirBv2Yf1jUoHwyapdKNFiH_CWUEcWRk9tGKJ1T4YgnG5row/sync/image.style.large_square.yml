@@ -1,0 +1,14 @@
+uuid: 6e21b33e-4fb0-414f-8ecd-fb63a75a1f5b
+langcode: en
+status: true
+dependencies: {  }
+name: large_square
+label: 'Large Square'
+effects:
+  fa87a57a-2d66-4bb6-bd8d-7409bbaf65d7:
+    uuid: fa87a57a-2d66-4bb6-bd8d-7409bbaf65d7
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1200
+      height: 1200

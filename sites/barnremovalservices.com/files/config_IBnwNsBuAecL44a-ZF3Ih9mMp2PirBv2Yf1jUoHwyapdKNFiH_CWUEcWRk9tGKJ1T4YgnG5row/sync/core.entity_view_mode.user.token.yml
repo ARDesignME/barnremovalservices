@@ -1,0 +1,10 @@
+uuid: deb908b5-6347-42d0-b438-9d45967deed9
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.token
+label: Token
+targetEntityType: user
+cache: true

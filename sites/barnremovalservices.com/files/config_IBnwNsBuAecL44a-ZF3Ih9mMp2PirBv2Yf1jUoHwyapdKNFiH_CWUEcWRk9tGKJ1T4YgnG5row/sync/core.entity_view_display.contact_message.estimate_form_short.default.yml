@@ -1,0 +1,39 @@
+uuid: f985ec68-e24e-417e-ae62-333dab5d6c4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.estimate_form_short
+    - field.field.contact_message.estimate_form_short.field_email
+    - field.field.contact_message.estimate_form_short.field_name
+    - field.field.contact_message.estimate_form_short.field_phone
+  module:
+    - telephone
+id: contact_message.estimate_form_short.default
+targetEntityType: contact_message
+bundle: estimate_form_short
+mode: default
+content:
+  field_email:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_name:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_phone:
+    weight: 2
+    label: above
+    settings:
+      title: ''
+    third_party_settings: {  }
+    type: telephone_link
+hidden:
+  langcode: true
+  message: true

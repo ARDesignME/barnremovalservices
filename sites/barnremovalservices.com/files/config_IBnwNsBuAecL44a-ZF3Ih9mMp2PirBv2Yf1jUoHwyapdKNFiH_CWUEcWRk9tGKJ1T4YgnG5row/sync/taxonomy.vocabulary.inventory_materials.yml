@@ -1,0 +1,9 @@
+uuid: 3c24ed7e-853a-4a35-aee7-c9e93020fb78
+langcode: en
+status: true
+dependencies: {  }
+name: 'Inventory Materials'
+vid: inventory_materials
+description: 'Material(s) that the stock item is made from'
+hierarchy: 0
+weight: 0

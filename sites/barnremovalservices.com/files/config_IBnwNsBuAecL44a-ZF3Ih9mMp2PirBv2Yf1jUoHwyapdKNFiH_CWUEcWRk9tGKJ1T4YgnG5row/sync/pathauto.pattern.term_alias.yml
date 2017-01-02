@@ -1,0 +1,24 @@
+uuid: 2307b6bf-ec3a-482a-937a-8d12092fc556
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: term_alias
+label: 'Term Alias'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/[term:name]'
+selection_criteria:
+  90263617-d25f-47f1-8ee5-35b49ca32725:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      media_tags: media_tags
+      tags: tags
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 90263617-d25f-47f1-8ee5-35b49ca32725
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,22 @@
+uuid: fc381903-f347-4661-8a85-99f92906ad7d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: stock_item_alias
+label: 'Stock Item Alias'
+type: 'canonical_entities:node'
+pattern: '/stock/[node:field_tags:0]/[node:title]'
+selection_criteria:
+  05f545da-6424-40e8-b52c-72e205661978:
+    id: node_type
+    bundles:
+      stock_item: stock_item
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 05f545da-6424-40e8-b52c-72e205661978
+selection_logic: and
+weight: -5
+relationships: {  }

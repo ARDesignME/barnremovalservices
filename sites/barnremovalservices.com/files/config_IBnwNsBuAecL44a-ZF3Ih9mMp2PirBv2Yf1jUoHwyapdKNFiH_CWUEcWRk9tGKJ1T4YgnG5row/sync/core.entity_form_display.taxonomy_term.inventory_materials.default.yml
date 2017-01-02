@@ -1,0 +1,52 @@
+uuid: 84e8ab47-72e2-4234-930d-150377aea810
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.inventory_materials.field_image
+    - image.style.thumbnail
+    - taxonomy.vocabulary.inventory_materials
+  module:
+    - image
+    - imce
+    - path
+    - text
+id: taxonomy_term.inventory_materials.default
+targetEntityType: taxonomy_term
+bundle: inventory_materials
+mode: default
+content:
+  description:
+    type: text_textarea
+    weight: 1
+    settings:
+      placeholder: ''
+      rows: 5
+    third_party_settings: {  }
+  field_image:
+    weight: 2
+    settings:
+      preview_image_style: thumbnail
+      progress_indicator: throbber
+    third_party_settings:
+      imce:
+        enabled: true
+    type: image_image
+  langcode:
+    type: language_select
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

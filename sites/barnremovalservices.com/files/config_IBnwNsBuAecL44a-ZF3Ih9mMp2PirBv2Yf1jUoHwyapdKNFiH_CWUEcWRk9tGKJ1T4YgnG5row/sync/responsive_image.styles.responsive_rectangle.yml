@@ -1,0 +1,36 @@
+uuid: d61e65dc-8f98-4f1e-9ee3-413f5f5568f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.large_mobile_rectangle
+    - image.style.large_rectangle
+    - image.style.medium_mobile_re
+    - image.style.small_mobile_rectangle
+  theme:
+    - horreum
+id: responsive_rectangle
+label: 'Responsive Rectangle'
+image_style_mappings:
+  -
+    breakpoint_id: horreum.desktop
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: large_rectangle
+  -
+    breakpoint_id: horreum.iphone7
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: large_mobile_rectangle
+  -
+    breakpoint_id: horreum.iphone6
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: medium_mobile_re
+  -
+    breakpoint_id: horreum.iphonese
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: small_mobile_rectangle
+breakpoint_group: horreum
+fallback_image_style: large_rectangle

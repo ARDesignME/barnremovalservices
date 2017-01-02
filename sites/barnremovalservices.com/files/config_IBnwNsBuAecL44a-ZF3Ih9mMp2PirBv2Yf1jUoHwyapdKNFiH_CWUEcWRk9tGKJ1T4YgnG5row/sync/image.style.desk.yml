@@ -1,0 +1,15 @@
+uuid: 19e11872-0ff0-4bc7-a7cb-e353447ccc4d
+langcode: en
+status: true
+dependencies: {  }
+name: desk
+label: Desktop
+effects:
+  2c968de2-fef2-4bd3-8a79-a5ede62470a8:
+    uuid: 2c968de2-fef2-4bd3-8a79-a5ede62470a8
+    id: image_scale
+    weight: 1
+    data:
+      width: 1200
+      height: null
+      upscale: false

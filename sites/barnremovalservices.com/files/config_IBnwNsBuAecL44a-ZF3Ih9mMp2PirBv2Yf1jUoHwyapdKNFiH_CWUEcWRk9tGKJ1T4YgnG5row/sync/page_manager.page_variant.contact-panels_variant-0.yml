@@ -1,0 +1,66 @@
+uuid: 7de8edd3-406e-41a9-bb1b-9e49dcee82b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - page_manager.page.contact
+  content:
+    - 'block_content:basic:dfcbe503-80ca-4c16-a26d-2421e327c8f5'
+  module:
+    - block_content
+    - contact_block
+    - panels
+    - socializer
+id: contact-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    789c34e0-92b7-4347-895a-a024a7f026f3:
+      id: contact_block
+      label: 'Send Us a Message'
+      provider: contact_block
+      label_display: visible
+      contact_form: feedback
+      region: column_left
+      weight: 0
+      uuid: 789c34e0-92b7-4347-895a-a024a7f026f3
+      context_mapping: {  }
+    cd70825c-e04b-4f07-87a7-df75d2d82596:
+      id: 'block_content:dfcbe503-80ca-4c16-a26d-2421e327c8f5'
+      label: 'Contact - Info'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: column_right
+      weight: 0
+      uuid: cd70825c-e04b-4f07-87a7-df75d2d82596
+      context_mapping: {  }
+    fc3bc0fb-51e6-47de-8aac-c2ffa4b266dd:
+      id: socializer_links_block
+      label: 'Or Check Us Out On'
+      provider: socializer
+      label_display: visible
+      class: 'socializer no-email centered large'
+      region: column_right
+      weight: 0
+      uuid: fc3bc0fb-51e6-47de-8aac-c2ffa4b266dd
+      context_mapping: {  }
+  id: panels_variant
+  uuid: ab0bb88b-d9e3-4eee-93fa-c38e752b91d4
+  label: null
+  weight: 0
+  layout: two-column
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: contact-panels_variant-0
+  builder: ipe
+page: contact
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

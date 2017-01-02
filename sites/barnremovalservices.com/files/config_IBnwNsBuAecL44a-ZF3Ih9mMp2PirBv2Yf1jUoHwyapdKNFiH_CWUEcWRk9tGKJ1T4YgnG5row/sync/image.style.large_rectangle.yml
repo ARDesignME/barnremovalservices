@@ -1,0 +1,14 @@
+uuid: 69be027c-0afe-49d5-b12e-6e7a646daf68
+langcode: en
+status: true
+dependencies: {  }
+name: large_rectangle
+label: 'Large Rectangle'
+effects:
+  490b1774-ce95-42f4-bbec-a15fd25d193d:
+    uuid: 490b1774-ce95-42f4-bbec-a15fd25d193d
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1200
+      height: 900

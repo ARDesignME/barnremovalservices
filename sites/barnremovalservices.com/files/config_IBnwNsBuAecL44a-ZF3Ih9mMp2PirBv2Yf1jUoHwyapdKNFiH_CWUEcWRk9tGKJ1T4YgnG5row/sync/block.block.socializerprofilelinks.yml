@@ -1,0 +1,21 @@
+uuid: b1ff9aa8-4263-464e-af44-00d8153287ce
+langcode: en
+status: true
+dependencies:
+  module:
+    - socializer
+  theme:
+    - horreum
+id: socializerprofilelinks
+theme: horreum
+region: footer
+weight: 0
+provider: null
+plugin: socializer_links_block
+settings:
+  id: socializer_links_block
+  label: 'Socializer Profile Links'
+  provider: socializer
+  label_display: '0'
+  class: socializer
+visibility: {  }

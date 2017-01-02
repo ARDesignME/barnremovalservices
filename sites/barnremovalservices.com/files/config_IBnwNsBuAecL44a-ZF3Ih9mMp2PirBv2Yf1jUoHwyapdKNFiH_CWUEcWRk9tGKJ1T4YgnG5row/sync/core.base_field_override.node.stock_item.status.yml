@@ -1,0 +1,22 @@
+uuid: 6fdb213b-d05d-428e-915b-bf5180dee2dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.stock_item
+id: node.stock_item.status
+field_name: status
+entity_type: node
+bundle: stock_item
+label: 'Publishing status'
+description: 'A boolean indicating whether the node is published.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

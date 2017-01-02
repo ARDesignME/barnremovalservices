@@ -1,0 +1,80 @@
+uuid: 2bfded28-ebb3-4a81-a518-0cd53c5dec51
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.gallery.body
+    - field.field.node.gallery.field_image
+    - field.field.node.gallery.field_tags
+    - image.style.thumbnail
+    - node.type.gallery
+  module:
+    - image
+    - imce
+    - path
+id: node.gallery.default
+targetEntityType: node
+bundle: gallery
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+  field_image:
+    weight: 1
+    settings:
+      preview_image_style: thumbnail
+      progress_indicator: throbber
+    third_party_settings:
+      imce:
+        enabled: true
+    type: image_image
+  field_tags:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+  langcode:
+    type: language_select
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 8
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 6
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 7
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 4
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  body: true

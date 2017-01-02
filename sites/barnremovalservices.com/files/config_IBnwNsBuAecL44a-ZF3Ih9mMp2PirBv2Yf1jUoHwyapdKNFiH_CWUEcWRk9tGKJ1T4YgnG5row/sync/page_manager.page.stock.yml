@@ -1,0 +1,12 @@
+uuid: b4e69df0-6e45-41e9-b3eb-232a13fc1f0e
+langcode: en
+status: true
+dependencies: {  }
+id: stock
+label: Stock
+description: ''
+use_admin_theme: false
+path: /stock
+access_logic: and
+access_conditions: {  }
+parameters: {  }

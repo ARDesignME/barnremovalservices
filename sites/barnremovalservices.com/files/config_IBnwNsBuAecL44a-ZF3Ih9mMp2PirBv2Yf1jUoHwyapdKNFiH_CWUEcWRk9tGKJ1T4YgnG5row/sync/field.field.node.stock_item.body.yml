@@ -1,0 +1,22 @@
+uuid: 289a82fe-c00f-4066-9f9c-13bf87ba108f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.stock_item
+  module:
+    - text
+id: node.stock_item.body
+field_name: body
+entity_type: node
+bundle: stock_item
+label: Description
+description: 'Description of the stock item.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

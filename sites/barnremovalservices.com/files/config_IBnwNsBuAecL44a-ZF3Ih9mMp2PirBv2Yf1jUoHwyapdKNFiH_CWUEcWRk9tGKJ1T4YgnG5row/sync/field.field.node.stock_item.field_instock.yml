@@ -1,0 +1,23 @@
+uuid: a4363072-5994-434c-8ca1-82dbc776f074
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_instock
+    - node.type.stock_item
+id: node.stock_item.field_instock
+field_name: field_instock
+entity_type: node
+bundle: stock_item
+label: 'In Stock'
+description: 'Whether the stock is available or not. If not checked, then stock will not show on page.'
+required: true
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'In Stock'
+  off_label: Unavailable
+field_type: boolean

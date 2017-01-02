@@ -1,0 +1,23 @@
+uuid: 51a8961c-9745-4e9c-99b3-56a690800117
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price_hewn
+    - node.type.stock_item
+id: node.stock_item.field_price_hewn
+field_name: field_price_hewn
+entity_type: node
+bundle: stock_item
+label: 'Price Hewn'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: $
+  suffix: '/bf hewn'
+field_type: float

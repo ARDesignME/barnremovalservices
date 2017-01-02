@@ -1,0 +1,22 @@
+uuid: 90a2b432-7723-4365-9601-8231a0561ccf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.gallery_video
+  module:
+    - text
+id: node.gallery_video.body
+field_name: body
+entity_type: node
+bundle: gallery_video
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

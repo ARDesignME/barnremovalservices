@@ -1,0 +1,27 @@
+uuid: 6cd78a99-6eef-40fb-ae74-e818de2f1d44
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.gallery_video.body
+    - node.type.gallery_video
+  module:
+    - text
+    - user
+id: node.gallery_video.teaser
+targetEntityType: node
+bundle: gallery_video
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  langcode: true

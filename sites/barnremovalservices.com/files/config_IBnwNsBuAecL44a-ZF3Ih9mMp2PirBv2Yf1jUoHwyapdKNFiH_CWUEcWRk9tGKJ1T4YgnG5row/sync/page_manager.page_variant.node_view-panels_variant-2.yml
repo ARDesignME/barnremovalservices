@@ -1,0 +1,227 @@
+uuid: 42ad1dc9-6afc-4408-ab84-ecb4dbf06d71
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.node_view
+    - views.view.stock_taxonomy_views
+  content:
+    - 'block_content:basic:0524886a-34b3-4266-852f-6df19869aeaf'
+  module:
+    - block_content
+    - ctools
+    - ctools_block
+    - panels
+    - views
+id: node_view-panels_variant-2
+label: 'Stock Item'
+variant: panels_variant
+variant_settings:
+  blocks:
+    2d6354d6-953a-449d-8ec0-3fc8ecc0dcb9:
+      id: 'views_block:stock_taxonomy_views-block_3'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: column_left
+      weight: 0
+      uuid: 2d6354d6-953a-449d-8ec0-3fc8ecc0dcb9
+      context_mapping: {  }
+    d55fc1e0-1b69-404b-9f1e-c506da557b89:
+      id: 'entity_field:node:body'
+      label: Body
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: hidden
+        type: text_default
+        settings: {  }
+        third_party_settings: {  }
+        weight: 0
+      region: column_right
+      weight: -9
+      uuid: d55fc1e0-1b69-404b-9f1e-c506da557b89
+      context_mapping:
+        entity: node
+    09c98655-693c-4929-8b4e-28a1a8c30cce:
+      id: 'entity_field:node:title'
+      label: Title
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: hidden
+        type: 'custom_formatters:content_title_h1'
+        settings: {  }
+        third_party_settings: {  }
+        weight: 0
+      region: column_right
+      weight: -10
+      uuid: 09c98655-693c-4929-8b4e-28a1a8c30cce
+      context_mapping:
+        entity: node
+    9bbcc5c4-63d9-4c1d-b802-f33a3b815172:
+      id: 'entity_field:node:field_text_2'
+      label: Sizes
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: inline
+        type: string
+        settings:
+          link_to_entity: false
+        third_party_settings: {  }
+        weight: 0
+      region: column_right_info
+      weight: -5
+      uuid: 9bbcc5c4-63d9-4c1d-b802-f33a3b815172
+      context_mapping:
+        entity: node
+    70c6c788-e3c0-4b95-966f-debd68dfbda6:
+      id: 'entity_field:node:field_text'
+      label: Lengths
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: inline
+        type: string
+        settings:
+          link_to_entity: false
+        third_party_settings: {  }
+        weight: 0
+      region: column_right_info
+      weight: -4
+      uuid: 70c6c788-e3c0-4b95-966f-debd68dfbda6
+      context_mapping:
+        entity: node
+    4d52c0e8-1b3c-4c8b-9e65-d24c472732ae:
+      id: 'entity_field:node:field_price_bf'
+      label: 'Price Board Foot'
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: above
+        type: number_decimal
+        settings:
+          thousand_separator: ','
+          prefix_suffix: true
+          decimal_separator: .
+          scale: 2
+        third_party_settings: {  }
+        weight: 0
+      region: column_right_info
+      weight: -1
+      uuid: 4d52c0e8-1b3c-4c8b-9e65-d24c472732ae
+      context_mapping:
+        entity: node
+    f0978413-753a-47c4-a62f-a42d9960bdad:
+      id: 'entity_field:node:field_price_sqf'
+      label: 'Price Sq Ft'
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: inline
+        type: number_decimal
+        settings:
+          thousand_separator: ','
+          prefix_suffix: true
+          decimal_separator: .
+          scale: 2
+        third_party_settings: {  }
+        weight: 0
+      region: column_right_info
+      weight: 0
+      uuid: f0978413-753a-47c4-a62f-a42d9960bdad
+      context_mapping:
+        entity: node
+    d8a25251-8d54-4628-be27-db279b21e325:
+      id: 'entity_field:node:field_price_sawn'
+      label: 'Price Sawn'
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: above
+        type: number_decimal
+        settings:
+          thousand_separator: ','
+          prefix_suffix: true
+          decimal_separator: .
+          scale: 2
+        third_party_settings: {  }
+        weight: 0
+      region: column_right_info
+      weight: -2
+      uuid: d8a25251-8d54-4628-be27-db279b21e325
+      context_mapping:
+        entity: node
+    f5c7b70a-7d26-49e5-9c94-cb808bd683fd:
+      id: 'entity_field:node:field_additional_information'
+      label: 'Additional Information'
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: above
+        type: text_default
+        settings: {  }
+        third_party_settings: {  }
+        weight: 0
+      region: column_right_info
+      weight: 1
+      uuid: f5c7b70a-7d26-49e5-9c94-cb808bd683fd
+      context_mapping:
+        entity: node
+    326325f4-9571-4d0f-8e49-947549d4fb8c:
+      id: 'entity_field:node:field_price_hewn'
+      label: 'Price Hewn'
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: above
+        type: number_decimal
+        settings:
+          thousand_separator: ','
+          prefix_suffix: true
+          decimal_separator: .
+          scale: 2
+        third_party_settings: {  }
+        weight: 0
+      region: column_right_info
+      weight: -3
+      uuid: 326325f4-9571-4d0f-8e49-947549d4fb8c
+      context_mapping:
+        entity: node
+    8ef1fe65-edb3-46cb-b8ae-301de8ab26e1:
+      id: 'block_content:0524886a-34b3-4266-852f-6df19869aeaf'
+      label: 'Call to Order'
+      provider: block_content
+      label_display: visible
+      status: true
+      info: ''
+      view_mode: full
+      region: column_right_info
+      weight: 2
+      uuid: 8ef1fe65-edb3-46cb-b8ae-301de8ab26e1
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 2a7b61f4-47a3-4d7d-ac74-4cdd35fba2f8
+  label: null
+  weight: 0
+  layout: stock-item-page
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: node_view-panels_variant-2
+  builder: ipe
+page: node_view
+weight: -9
+selection_criteria:
+  -
+    id: 'entity_bundle:node'
+    bundles:
+      stock_item: stock_item
+    negate: false
+    context_mapping:
+      node: node
+selection_logic: and
+static_context: {  }

@@ -1,0 +1,84 @@
+homepage:
+  label: Homepage layout
+  category: Front Page
+  template: layouts/homepage
+  css: css/style.min.css
+  regions:
+    first_block:
+      label: Fullwidth top
+    first_block_overlay:
+      label: Fullwidth top overlay
+    second_block:
+      label: Second block
+    third_block:
+      label: Third block
+    fourth_block:
+      label: Fourth block
+basic-page:
+  label: Page layout
+  category: Basic Page
+  template: layouts/basic-page
+  css: css/style.min.css
+  regions:
+    top:
+      label: Fullwidth top
+    middle:
+      label: Middle region
+    bottom:
+      label: Bottom region
+two-column:
+  label: Two column layout
+  category: Basic Page
+  template: layouts/two-column
+  css: css/style.min.css
+  regions:
+    top:
+      label: Top
+    column_left:
+      label: Left column
+    column_right:
+      label: Right column
+    bottom:
+      label: Bottom region
+plain-page:
+  label: Plain layout - no header image
+  category: Basic Page
+  template: layouts/plain-page
+  css: css/style.min.css
+  regions:
+    top:
+      label: Top Region
+    middle:
+      label: Middle region
+    bottom:
+      label: Bottom region
+two-column-top-33-66:
+  label: Two Column Top 33/66
+  category: Basic Page
+  template: layouts/two-column-top-33-66
+  css: css/style.min.css
+  regions:
+    top_left:
+      label: Top Left 33%
+    top_right:
+      label: Top Right 66%
+    middle:
+      label: Middle region
+    bottom:
+      label: Bottom region
+stock-item-page:
+  label: Stock Item Page
+  category: Stock Page
+  template: layouts/stock-item-page
+  css: css/style.min.css
+  regions:
+    top:
+      label: Top
+    column_left:
+      label: Left column
+    column_right:
+      label: Right column
+    column_right_info:
+      label: Item Details
+    bottom:
+      label: Bottom region

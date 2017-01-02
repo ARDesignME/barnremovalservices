@@ -1,0 +1,12 @@
+uuid: 6ff8ed8c-a496-4066-9f4a-5adbba5a8c69
+langcode: en
+status: true
+dependencies: {  }
+id: estimate_form
+label: 'Estimate Form'
+recipients:
+  - info@barnremovalservices.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

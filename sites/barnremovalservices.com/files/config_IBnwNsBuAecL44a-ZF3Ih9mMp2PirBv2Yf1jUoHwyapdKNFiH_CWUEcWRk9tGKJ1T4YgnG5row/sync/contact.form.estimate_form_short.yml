@@ -1,0 +1,12 @@
+uuid: 0f8d5eb7-78fd-4de8-b498-174de69be134
+langcode: en
+status: true
+dependencies: {  }
+id: estimate_form_short
+label: 'Estimate Form Short'
+recipients:
+  - allie@ardesignme.com
+reply: 'Thank you for '
+weight: 0
+message: ''
+redirect: ''

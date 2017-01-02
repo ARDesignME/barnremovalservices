@@ -1,0 +1,23 @@
+uuid: 4ece0aca-82b2-4ea9-a155-2c59eebff796
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price_sawn
+    - node.type.stock_item
+id: node.stock_item.field_price_sawn
+field_name: field_price_sawn
+entity_type: node
+bundle: stock_item
+label: 'Price Sawn'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: $
+  suffix: '/bf sawn'
+field_type: float

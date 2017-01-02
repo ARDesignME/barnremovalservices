@@ -1,0 +1,12 @@
+uuid: 0a0d477f-ef91-4371-85ac-89ae3071d603
+langcode: en
+status: true
+dependencies: {  }
+id: contact
+label: Contact
+description: ''
+use_admin_theme: false
+path: /contact
+access_logic: and
+access_conditions: {  }
+parameters: {  }

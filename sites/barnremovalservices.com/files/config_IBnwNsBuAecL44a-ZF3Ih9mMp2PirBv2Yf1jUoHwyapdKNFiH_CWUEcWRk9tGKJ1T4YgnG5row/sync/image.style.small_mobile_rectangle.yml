@@ -1,0 +1,14 @@
+uuid: b7751b9d-d699-4a9d-bffa-f564a52e485d
+langcode: en
+status: true
+dependencies: {  }
+name: small_mobile_rectangle
+label: 'Small Mobile Rectangle'
+effects:
+  5687a0ae-2b6f-420a-979e-7b2af954753f:
+    uuid: 5687a0ae-2b6f-420a-979e-7b2af954753f
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 320
+      height: 240

@@ -1,0 +1,122 @@
+uuid: f92c55c2-8f9a-4cbc-b19d-106ac2c01abb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.stock_item.body
+    - field.field.node.stock_item.field_additional_information
+    - field.field.node.stock_item.field_gallery
+    - field.field.node.stock_item.field_instock
+    - field.field.node.stock_item.field_price_bf
+    - field.field.node.stock_item.field_price_hewn
+    - field.field.node.stock_item.field_price_sawn
+    - field.field.node.stock_item.field_price_sqf
+    - field.field.node.stock_item.field_tags
+    - field.field.node.stock_item.field_text
+    - field.field.node.stock_item.field_text_2
+    - node.type.stock_item
+  module:
+    - image
+    - text
+    - user
+id: node.stock_item.default
+targetEntityType: node
+bundle: stock_item
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_additional_information:
+    weight: 117
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_gallery:
+    weight: 110
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_instock:
+    weight: 103
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+  field_price_bf:
+    weight: 115
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+  field_price_hewn:
+    weight: 114
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+  field_price_sawn:
+    weight: 113
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+  field_price_sqf:
+    weight: 116
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+  field_tags:
+    weight: 106
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_text:
+    weight: 107
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_text_2:
+    weight: 111
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

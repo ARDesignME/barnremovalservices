@@ -1,0 +1,14 @@
+uuid: fa1c02d6-95a3-4fef-8090-af5d33d796a3
+langcode: en
+status: true
+dependencies: {  }
+name: large_mobile_rectangle
+label: 'Large Mobile Rectangle'
+effects:
+  753aec83-5d6e-483b-a440-b113a77a58fa:
+    uuid: 753aec83-5d6e-483b-a440-b113a77a58fa
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1080
+      height: 810

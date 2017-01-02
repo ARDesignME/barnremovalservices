@@ -1,0 +1,52 @@
+uuid: d1c59fea-10b4-4e9c-b5a9-ab5c365d937b
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.stock
+    - views.view.stock_views
+  module:
+    - panels
+    - views
+id: stock-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    e84a7ebf-d1dd-47db-8f36-0edb5dd2d078:
+      id: 'views_block:stock_views-block_1'
+      label: 'Lumber Types'
+      provider: views
+      label_display: visible
+      views_label: 'Lumber Types'
+      items_per_page: none
+      region: top
+      weight: 0
+      uuid: e84a7ebf-d1dd-47db-8f36-0edb5dd2d078
+      context_mapping: {  }
+    706df303-b786-4576-8486-53ab8ba9f8a7:
+      id: 'views_block:stock_views-block_2'
+      label: 'Lumber Materials'
+      provider: views
+      label_display: visible
+      views_label: 'Lumber Materials'
+      items_per_page: none
+      region: top
+      weight: 1
+      uuid: 706df303-b786-4576-8486-53ab8ba9f8a7
+      context_mapping: {  }
+  id: panels_variant
+  uuid: d948720f-3fcd-468e-b55e-d92a364637fd
+  label: null
+  weight: 0
+  layout: plain-page
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: stock-panels_variant-0
+  builder: ipe
+page: stock
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

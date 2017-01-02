@@ -1,0 +1,13 @@
+uuid: 555f8f75-9477-409b-ab63-8737e8e23b8f
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: f6w_Pd30AyyDIoMkD4QpPMM2-I8FTEHICchFVOpjiCI
+id: comment_publish_action
+label: 'Publish comment'
+type: comment
+plugin: comment_publish_action
+configuration: {  }

@@ -1,0 +1,16 @@
+uuid: a35a454b-3a02-4854-a65b-6cad65f85d22
+langcode: en
+status: true
+dependencies:
+  module:
+    - image
+third_party_settings:
+  contextual:
+    mode: '1'
+id: gallery_main_image
+label: 'Gallery Main Image'
+type: html_token
+description: 'Show the first image in a gallery.'
+field_types:
+  - image
+data: '[node:field_gallery:0]'

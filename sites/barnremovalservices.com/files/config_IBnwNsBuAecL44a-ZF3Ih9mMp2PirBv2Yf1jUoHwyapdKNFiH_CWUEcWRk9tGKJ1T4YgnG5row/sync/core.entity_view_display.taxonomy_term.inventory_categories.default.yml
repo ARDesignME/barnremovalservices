@@ -1,0 +1,31 @@
+uuid: beb193a1-45e6-44c6-b1f7-4a19eb2cd956
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.inventory_categories.field_image
+    - taxonomy.vocabulary.inventory_categories
+  module:
+    - image
+    - text
+id: taxonomy_term.inventory_categories.default
+targetEntityType: taxonomy_term
+bundle: inventory_categories
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  field_image:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+hidden:
+  langcode: true

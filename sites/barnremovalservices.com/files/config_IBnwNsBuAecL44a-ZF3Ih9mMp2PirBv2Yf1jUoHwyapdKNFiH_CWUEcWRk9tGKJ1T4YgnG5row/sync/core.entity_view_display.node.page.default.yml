@@ -1,0 +1,56 @@
+uuid: 714a2941-f8d5-41da-92e5-df3f3d353a7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.page.body
+    - field.field.node.page.field_image
+    - field.field.node.page.field_meta_tags
+    - field.field.node.page.field_yoast_seo
+    - node.type.page
+    - responsive_image.styles.max_image_size
+  module:
+    - metatag
+    - responsive_image
+    - text
+    - user
+    - yoast_seo
+_core:
+  default_config_hash: oZ-7vpIJxjxL2up9B5KrJGD0lazQ9aN0P-fIPo6OrSU
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+  field_image:
+    weight: 104
+    label: above
+    settings:
+      responsive_image_style: max_image_size
+      image_link: ''
+    third_party_settings: {  }
+    type: responsive_image
+  field_meta_tags:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+  field_yoast_seo:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: yoastseo_formatter
+  links:
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

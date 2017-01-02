@@ -1,0 +1,92 @@
+uuid: 45928e81-4802-4482-a40a-9756187fb3af
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.stock_taxonomy
+    - views.view.stock_taxonomy_views
+  module:
+    - ctools_block
+    - panels
+    - views
+id: stock_taxonomy-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    395b5a8f-fdbe-4e6a-86a6-9f7710730994:
+      id: 'entity_field:taxonomy_term:name'
+      label: Name
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: hidden
+        type: 'custom_formatters:term_name_header'
+        settings: {  }
+        third_party_settings: {  }
+        weight: 0
+      region: top_right
+      weight: -1
+      uuid: 395b5a8f-fdbe-4e6a-86a6-9f7710730994
+      context_mapping:
+        entity: taxonomy_term
+    27039bfb-8cf1-4051-9d5c-861113f15ec7:
+      id: 'entity_field:taxonomy_term:description'
+      label: Description
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: hidden
+        type: text_default
+        settings: {  }
+        third_party_settings: {  }
+        weight: 0
+      region: top_right
+      weight: 0
+      uuid: 27039bfb-8cf1-4051-9d5c-861113f15ec7
+      context_mapping:
+        entity: taxonomy_term
+    49f955fe-6d91-4830-bd93-9523b3437660:
+      id: 'views_block:stock_taxonomy_views-block_1'
+      label: 'Lumber Types'
+      provider: views
+      label_display: '0'
+      views_label: 'Lumber Types'
+      items_per_page: none
+      region: middle
+      weight: -1
+      uuid: 49f955fe-6d91-4830-bd93-9523b3437660
+      context_mapping: {  }
+    e8bab6c9-4c8d-4847-b0ea-f69634c3dbf6:
+      id: 'entity_field:taxonomy_term:field_image'
+      label: Image
+      provider: ctools_block
+      label_display: '0'
+      formatter:
+        label: hidden
+        type: responsive_image
+        settings:
+          responsive_image_style: max_image_size
+          image_link: ''
+        third_party_settings: {  }
+        weight: 0
+      region: top_left
+      weight: -10
+      uuid: e8bab6c9-4c8d-4847-b0ea-f69634c3dbf6
+      context_mapping:
+        entity: taxonomy_term
+  id: panels_variant
+  uuid: cbee8c99-2e21-48cb-9f1f-1499641526f8
+  label: null
+  weight: 0
+  layout: two-column-top-33-66
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: stock_taxonomy-panels_variant-0
+  builder: ipe
+page: stock_taxonomy
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

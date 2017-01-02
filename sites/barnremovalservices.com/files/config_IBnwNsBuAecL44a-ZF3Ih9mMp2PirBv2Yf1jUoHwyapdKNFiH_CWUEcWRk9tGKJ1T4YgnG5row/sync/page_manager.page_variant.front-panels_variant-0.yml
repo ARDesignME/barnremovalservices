@@ -1,0 +1,115 @@
+uuid: 6010b326-8dc5-4f31-8876-f0986ce32939
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.estimate_form_short
+    - page_manager.page.front
+    - views.view.galleries
+    - views.view.main_image_view
+  content:
+    - 'block_content:basic:d073a2e7-66d5-4384-af83-c0d741ba8cb5'
+    - 'block_content:basic:f7800ed8-e694-4fc8-8abe-a279aeb4520f'
+  module:
+    - block_content
+    - contact_block
+    - panels
+    - views
+id: front-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    0b907f97-783e-4892-aac6-6982fc9f62a1:
+      id: 'views_block:main_image_view-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: '1'
+      region: first_block
+      weight: -10
+      uuid: 0b907f97-783e-4892-aac6-6982fc9f62a1
+      context_mapping: {  }
+    95a8adc4-1aea-405f-88bf-388516690ac4:
+      id: 'block_content:d073a2e7-66d5-4384-af83-c0d741ba8cb5'
+      label: 'Front - Top Text'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: first_block_overlay
+      weight: 0
+      uuid: 95a8adc4-1aea-405f-88bf-388516690ac4
+      context_mapping: {  }
+    2b5832ef-01fd-4b62-a67f-7f104fe5fbaa:
+      id: 'block_content:f7800ed8-e694-4fc8-8abe-a279aeb4520f'
+      label: 'Front - Location Text'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: second_block
+      weight: 0
+      uuid: 2b5832ef-01fd-4b62-a67f-7f104fe5fbaa
+      context_mapping: {  }
+    32630e48-f2df-430f-b2d0-82eed475bb81:
+      id: contact_block
+      label: 'Contact block'
+      provider: contact_block
+      label_display: '0'
+      contact_form: estimate_form_short
+      region: fourth_block
+      weight: 0
+      uuid: 32630e48-f2df-430f-b2d0-82eed475bb81
+      context_mapping: {  }
+    38390420-8265-47d1-9044-9f1190e3edf7:
+      id: 'views_block:galleries-what_gallery'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: '3'
+      region: third_block
+      weight: -3
+      uuid: 38390420-8265-47d1-9044-9f1190e3edf7
+      context_mapping: {  }
+    5aebfff2-c5f9-4812-9d8e-047a8581d89c:
+      id: 'views_block:galleries-how_gallery'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: '3'
+      region: third_block
+      weight: -2
+      uuid: 5aebfff2-c5f9-4812-9d8e-047a8581d89c
+      context_mapping: {  }
+    473d766f-d1a7-45f4-bdf0-978452a6f5c0:
+      id: 'views_block:galleries-who_gallery'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: '3'
+      region: third_block
+      weight: -1
+      uuid: 473d766f-d1a7-45f4-bdf0-978452a6f5c0
+      context_mapping: {  }
+  id: panels_variant
+  uuid: a39766cf-1da6-4ceb-8d60-ea51791a1385
+  label: null
+  weight: 0
+  layout: homepage
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: front-panels_variant-0
+  builder: ipe
+page: front
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

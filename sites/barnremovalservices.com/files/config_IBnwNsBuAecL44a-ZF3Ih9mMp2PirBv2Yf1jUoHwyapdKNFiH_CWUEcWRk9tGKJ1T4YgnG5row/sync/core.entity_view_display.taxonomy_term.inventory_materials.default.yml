@@ -1,0 +1,31 @@
+uuid: b841f5cc-b74e-4159-8d27-e7a0900b206f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.inventory_materials.field_image
+    - taxonomy.vocabulary.inventory_materials
+  module:
+    - image
+    - text
+id: taxonomy_term.inventory_materials.default
+targetEntityType: taxonomy_term
+bundle: inventory_materials
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  field_image:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+hidden:
+  langcode: true

@@ -1,0 +1,16 @@
+name: Horreum
+description: Theme for Barn Removal Services
+type: theme
+core: 8.x
+libraries:
+  - horreum/global-css
+  - horreum/global-js
+stylesheets-remove:
+  - core/themes/stable/css/views/views.module.css
+  - core/themes/stable/css/system/components/align.module.css
+
+regions:
+  header: 'Header'
+  main_navigation: 'Main Navigation'
+  content: 'Main Content'
+  footer: 'Footer'

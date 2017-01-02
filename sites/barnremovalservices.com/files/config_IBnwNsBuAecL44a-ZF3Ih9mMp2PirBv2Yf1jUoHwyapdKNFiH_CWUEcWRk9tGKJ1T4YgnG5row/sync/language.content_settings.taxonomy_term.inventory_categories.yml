@@ -1,0 +1,11 @@
+uuid: 2b9a4ae8-c9ed-4736-99eb-69a11aaf8bf5
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.inventory_categories
+id: taxonomy_term.inventory_categories
+target_entity_type_id: taxonomy_term
+target_bundle: inventory_categories
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,18 @@
+uuid: 06ce8b7a-e6d5-4705-9403-8dddaba2447f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Gallery
+type: gallery
+description: 'Images for various gallery sections on the website. Tag to send to specific sections.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

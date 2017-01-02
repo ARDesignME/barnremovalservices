@@ -1,0 +1,23 @@
+uuid: bb908998-6cff-4034-a262-1336f7257720
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price_bf
+    - node.type.stock_item
+id: node.stock_item.field_price_bf
+field_name: field_price_bf
+entity_type: node
+bundle: stock_item
+label: 'Price per BF'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: $
+  suffix: /bf
+field_type: float

@@ -1,0 +1,21 @@
+uuid: d8999222-33ff-4eab-a7bb-d7a797e7d243
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_additional_information
+    - node.type.stock_item
+  module:
+    - text
+id: node.stock_item.field_additional_information
+field_name: field_additional_information
+entity_type: node
+bundle: stock_item
+label: 'Additional Information'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,12 @@
+uuid: acb8919f-d8cc-4e5f-9c47-157f85eb16b6
+langcode: en
+status: true
+dependencies: {  }
+id: stock_taxonomy
+label: 'Stock Taxonomy'
+description: ''
+use_admin_theme: false
+path: /taxonomy/term/%
+access_logic: and
+access_conditions: {  }
+parameters: {  }

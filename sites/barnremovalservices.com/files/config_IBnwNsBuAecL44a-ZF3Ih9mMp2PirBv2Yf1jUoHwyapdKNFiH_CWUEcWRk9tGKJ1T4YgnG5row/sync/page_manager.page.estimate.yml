@@ -1,0 +1,12 @@
+uuid: b3db7580-90da-4a13-8005-f04e9072e631
+langcode: en
+status: true
+dependencies: {  }
+id: estimate
+label: Estimate
+description: ''
+use_admin_theme: false
+path: /estimate
+access_logic: and
+access_conditions: {  }
+parameters: {  }
