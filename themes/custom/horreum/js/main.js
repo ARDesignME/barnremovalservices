@@ -28,6 +28,27 @@ jQuery(document).ready(function($){
     $('#cookie-popup').slideToggle(500);
   });
 
+
+
+  /* ------------------------
+    GOOGLE ANALYTICS GOALS
+  ------------------------ */
+  // Forms submitted
+  $('.contact-message-feedback-form').find('#edit-submit').click(function(){
+    ga('send', { 'hitType': 'pageview', 'page': '/vpv/contact_submit', 'title': 'Contact Us Submitted' });
+  });
+  $('.contact-message-estimate-form-short-form').find('#edit-submit').click(function(){
+    ga('send', { 'hitType': 'pageview', 'page': '/vpv/estimate_submit', 'title': 'Estimate Request Submitted' });
+  });
+
+
+  // Called by phone link
+  $('a').click(function(){
+    if ($(this).attr('href') == 'tel:14139493431') {
+      ga('send', { 'hitType': 'pageview', 'page': '/vpv/phone_call', 'title': 'Telephone Button Clicked' });
+    }
+  });
+
 });// end doc
 
 jQuery(document).ready(function($){
